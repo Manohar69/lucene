@@ -1,0 +1,188 @@
+/* Mobile Responsive view starts */
+@media screen and (min-width:320px) and (max-width:767px) {
+/* ------ Body Content CSS Start ------ */
+h4 { font-size:16px; line-height:19px; }
+header .branding-section { box-sizing: border-box; }
+.logo-sheryan, .breadcrumb { display: none; }
+.section-container { height:48px; margin: 16px 0 0 0; }
+.section-container h4 { margin: 13px 0 16px 0; }
+.arrow-right { margin: 5px 14px 16px 24px; border-top: 6px solid transparent; border-left: 8px solid #FFF; border-bottom: 6px solid transparent; }
+.content-footer { margin:0 0 10px 0; text-align:center; }
+.content-footer a.btn, input.btn, button.btn { float:none; margin:0; }
+.content-footer .text-primary { float:none !important; margin: 36px 0 0 0; width:100%; }
+.happiness-meter { position:fixed; left:0; bottom:0; -webkit-transform:none; transform:none; }
+.arrow-down { margin: 7px 10px 16px 24px; border-top: 8px solid #FFF; border-left: 6px solid transparent; border-right: 6px solid transparent; }
+.form-container { width: auto; }
+.form-devider .text-primary { width: 100%; margin: 15px 0 18px; font-size: 16px; }
+.container-check-tabled { width: 100%; margin: 15px 0 0; }
+.form-group .input-group { width: 100%; margin: 0 0 8px 0; }
+.form-group .alert-group { width: 100%; float: left; }
+.form-group .alert-group .tooltip-default { min-height:inherit; border-left: 5px solid #EAEAEA; }
+.form-group .alert-group .tooltip-focus { min-height:inherit; border-left: 5px solid #1DB6C9; }
+.upload-group span.labelIcon::before { left: -20px; position: relative; }
+.input-group .overlayIcon { right: 18%; }
+.grid-container { padding: 12px 24px 12px 24px; }
+.grid-container .row, .grid-container-full .row { margin:0; }
+.grid-container .col-1, .grid-container .col-2, .grid-container .col-3, .grid-container .col-4, .grid-container .col-5, .grid-container .col-6, .grid-container .col-7, .grid-container .col-8, .grid-container .col-9, .grid-container .col-10, .grid-container .col-11, .grid-container .col-12, .grid-container-full .col-1, .grid-container-full .col-2, .grid-container-full .col-3, .grid-container-full .col-4, .grid-container-full .col-5, .grid-container-full .col-6, .grid-container-full .col-7, .grid-container-full .col-8, .grid-container-full .col-9, .grid-container-full .col-10, .grid-container-full .col-11, .grid-container-full .col-12 { width:100%; margin-bottom:24px; }
+.grid-container .row:last-child .col-1, .grid-container .row:last-child .col-2, .grid-container .row:last-child .col-3, .grid-container .row:last-child .col-4, .grid-container .row:last-child .col-5, .grid-container .row:last-child .col-6, .grid-container .row:last-child .col-7, .grid-container .row:last-child .col-8, .grid-container .row:last-child .col-9, .grid-container .row:last-child .col-10, .grid-container .row:last-child .col-11, .grid-container .row:last-child .col-12, .grid-container-full .row:last-child .col-1, .grid-container-full .row:last-child .col-2, .grid-container-full .row:last-child .col-3, .grid-container-full .row:last-child .col-4, .grid-container-full .row:last-child .col-5, .grid-container-full .row:last-child .col-6, .grid-container-full .row:last-child .col-7, .grid-container-full .row:last-child .col-8, .grid-container-full .row:last-child .col-9, .grid-container-full .row:last-child .col-10, .grid-container-full .row:last-child .col-11, .grid-container-full .row:last-child .col-12 { margin-bottom:0; }
+.grid-container .row:last-child .col-6:last-child { margin-bottom:0; }
+.grid-container { padding:10px 16px 16px; }
+.input-group div input, .input-group .ui-selectmenu-button.ui-button { width: 75%; }
+.upload-group { width: 75% !important; }
+.input-group div.icon-Success::before, .input-group div.icon-Error::before { margin: 15px 0 15px 0; right: 32px; position: absolute; }
+.eligible-container .text-container { width: 85%; }
+/* ------ Body Content CSS Ends ------ */
+.container { width:100%; box-sizing:border-box; }
+.professional-registration .registration-container { max-width: 87vw; margin-left: 28px; }
+footer .container { width: auto; }
+.tooltip { width: 46%; float:left; margin-bottom: 10px; }
+.tooltip:nth-child(odd) { margin-right:4%; }
+.tooltip a { margin:0; }
+footer .footer-logo { height: auto; }
+footer .footer-content .footer-links { width:100%; padding:0 10px; margin: 0 0 30px; box-sizing:border-box; }
+footer .footer-content .footer-links ul { width:40%; }
+footer .footer-content .footer-links ul:last-child { width:56%; }
+footer .footer-content .footer-links ul.space { margin: 0 4% 0 0; }
+footer .footer-content .browsers-block { width: 100%; text-align:center; }
+.browser-icons { display: flex; flex-direction: row; justify-content: center; margin:15px 0; padding: 0 20px; }
+.browser-icons div { flex-grow:1; margin:8px 0; }
+footer .footer-content .smart-dubai { width: 100%; }
+.smart-dubai a { display: flex; flex-direction: row; justify-content: center; margin: 25px 0 0; }
+.copyright { width: 100%; text-align: center; float:none !important; }
+.social-block { display: table; margin: 10px; float:none !important; position:relative; }
+.social-block a { flex-grow:1; margin:8px 0; }
+footer .footer-bottom .bottom-links { float: none; display:table; }
+footer .footer-bottom .bottom-links ul li:last-child span { display:none; }
+.footer-bottom-right { float: none !important; display: table; margin: 0 auto !important; }
+.bottom-links ul { margin:15px auto 20px; }
+
+.popupbox, .confirmationBox { width: 80%; }
+.confirmationBox h3 { font-size:24px; line-height:29px; }
+.confirmationBox .btn-lg { padding: 9px 24px; font-size: 20px; }
+.grid-container h4 span::before { margin-top:-5px; }
+
+.welcome-container .healthcare .text-container .text-holder, .welcome-container .facility .text-container .text-holder, .welcome-container .dubai-health .image-container .text-holder, .welcome-container .dubai-health .text-container .text-holder{max-width:350px;}
+
+}
+/* Mobile Responsive view ends */
+
+/* Mobile and Ipad common Responsive view starts */
+@media screen and (min-width:320px) and (max-width:1023px) {
+h1 { font-size:32px; line-height:38px; }
+.inner-content h1.heading { height: auto; margin: 12px 0; text-align:center; }
+/* ------ Header Content CSS Start ------ */	
+.container { padding:0 12px; box-sizing:border-box; }/*====================  TO OVERCOME FROM PORTAL RELATED PADDING ISSUE It was made '0' here ====================*/
+header .branding-section .brand-left img { width: 80px; height: height; }
+header .branding-section .brand-right img { width: 90px; height: height; }
+header .top-section { height: 48px; }
+.top-section .container { width:100%; box-sizing:border-box; }
+.logo-sheryan { display:none; }
+header .top-section .accessibility { margin: 10px; }
+header .top-section .search { margin: 14px 12px; }
+header .top-section .user { margin: 7px 0 7px 9px; }
+header .breadcrumb-section .translaet { margin: 16px 7px 16px 33.71px; }
+header .branding-section { height: 64px; }
+header .branding-section .brand-left { margin: 5px 0px 5px 12px; }
+header .branding-section .brand-right { margin: 5px 12px 5px 0; }
+header .breadcrumb-section { height: 40px; }
+header .breadcrumb-section .home, header .breadcrumb-section .dubai-ae, header .breadcrumb-section .translaet { margin-top:11px; margin-bottom:11px; }
+#navBar { margin:0; width: 100%; box-sizing:border-box; z-index: 1; left:-100%; background: rgba(0,141,150,1); overflow-x: hidden; transition: 0.5s; position: fixed; top: 64px; height:100vh; box-sizing:border-box; }
+.top-nav {padding:48px 24px 0;}
+.top-nav li { display:table; width:100% !important; border-bottom:1px solid rgba(255,255,255,0.3); }
+.top-nav a { padding: 8px; text-decoration: none; color: #FFF; display: block; transition: 0.3s; font-size:20px; line-height:72px; padding:0 16px; }
+.top-nav a:hover { color: #FFF; background:#707070; }
+.navShow { left:0 !important; }
+header .mobileNav { color: #ebebeb; font-size: 30px; display:table; float: left; position: relative; }
+.mobileNav.icon-Mobilemenu:before { margin-left: -8px; float: left; top: 20px; position: absolute; }
+.mobileNav.icon-Delete::before { transform:rotate(45deg); }
+.mobileNav.icon-Delete { margin: 14px 0 0 1px; float: left; font-size: 18px; z-index: 2; transform: rotate(45deg); }
+footer .footer-bottom .social-block a { width: 45px; height: 45px; float: left; margin: 0 0 0 12px; font-size:45px; }
+footer .footer-content { padding: 20px 0 36px 0; }
+.accessibility-dropdown { top: 48px; height:270px; overflow-y:scroll; }
+header .top-section .accessibility-pointer::after { content: ''; position: absolute; width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 6px solid #595959; bottom: -9px; left: 8px; }
+.accessibility-dropdown ul li { width:100%; margin: 0 0 40px; }
+.accessibility-dropdown ul li:nth-child(2) { padding:0; }
+.accessibility-dropdown ul li:nth-child(3) { padding-left:0; }
+
+header .welcome-text .container { max-width:380px; width:100%; margin:0 auto; }
+header .welcome-text .shreyan-logo { width:100%; padding:0; margin-bottom:32px; }
+header .welcome-text .shreyan-logo img { width:165px; margin:0 auto; padding:0; display:table; }
+header .welcome-text .shreyan-text { width: 100%; padding: 0; text-align: center; }
+header .welcome-text .shreyan-text h1 { line-height:38px; margin-bottom:10px; }
+header .welcome-text .devider { display:none; }
+
+.welcome-container .healthcare, .welcome-container .facility { height:auto; }
+.welcome-container .healthcare .image-container, .welcome-container .facility .image-container { width:100%; box-sizing:border-box; height:300px; float:left; position:relative; }
+.welcome-container .healthcare .text-container, .welcome-container .facility .text-container { width:100%; box-sizing:border-box; height:auto; float:left; position:relative; display:table; padding:35px; }
+.welcome-container .healthcare .image-container .imgOverlay-1, .welcome-container .facility .image-container .imgOverlay-2 { display:none; }
+.welcome-container .healthcare .image-container .imgOverlay-1-m, .welcome-container .facility .image-container .imgOverlay-2-m { display:table; }
+.welcome-container .healthcare .text-container .text-holder, .welcome-container .facility .text-container .text-holder { width:100%; position:relative; transform:none; text-align:center; margin: 0 auto; }
+.welcome-container .healthcare .text-container .text-holder h3, .welcome-container .facility .text-container .text-holder h3 { font-size:24px; line-height:29px; }
+.welcome-container .healthcare .text-container .text-holder p, .welcome-container .facility .text-container .text-holder p { margin:12px auto 20px; width:auto; }
+.welcome-container .healthcare .text-container a, .welcome-container .facility .text-container a { position:relative; float:none; margin:0 auto; display:table; bottom:0; right:0; left:0; }
+.welcome-container .dubai-health { width:100%; background:#FFFFFF; }
+.welcome-container .dubai-health .image-container, .welcome-container .dubai-health .text-container { width:100%; height:auto; position:relative; padding:35px; box-sizing:border-box; }
+.welcome-container .dubai-health .image-container .text-holder, .welcome-container .dubai-health .text-container .text-holder { width:100%; float:none; position:relative; top:0; right:0; transform:translateY(0); text-align:center; margin:0 auto; }
+.welcome-container .dubai-health .image-container .text-holder h3, .welcome-container .dubai-health .text-container .text-holder h3 { font-size:24px; line-height:29px; }
+.welcome-container .dubai-health .image-container .text-holder p, .welcome-container .dubai-health .text-container .text-holder p { width:auto; margin:12px auto 20px; }
+.welcome-container .dubai-health .image-container { background: #F1F5F6 url(../../images/home-img3-overlay-m.png) no-repeat left bottom; padding-bottom: 75px; }
+.welcome-container .dubai-health .image-container a, .welcome-container .dubai-health .text-container a { margin:0 auto; display:table; float:none; position:relative; right:0; bottom:0; }
+
+/* ------ Header Content CSS Ends ------ */	
+
+
+/* ------ Dashboard page Starts ------ */
+.dashboard-toolbar>*{width:auto;}
+.dashboard-toolbar .dashboard-leftbox a:before{color:#008D96; font-size:26px; line-height:29px; float:left; margin:0 15px 10px 0;}
+.dashboard-toolbar .dashboard-leftbox a span, .dashboard-toolbar .dashboard-rightbox a span{display:none;}
+
+.dashboard-toolbar .dashboard-rightbox{text-decoration:underline; font-size:20px; text-align:right;}
+.dashboard-toolbar .dashboard-rightbox .accent-2{font-size:16px;}
+.dashboard-toolbar .dashboard-rightbox ul{float:right;}
+.dashboard-toolbar .dashboard-rightbox ul li{float:left;}
+.dashboard-toolbar .dashboard-rightbox a:before{color:inherit; font-size:34px; line-height:29px; float:right; margin:0 15px 13px 0;}
+
+.dashboard-toolbar .pills{display:flex; justify-content: center;}
+.dashboard-toolbar .pills li{float:left; background:none; border:1px solid #008D96; width:160px; color:#008D96; text-align:center; cursor:pointer; transition:all ease-in-out 0.2s;}
+.dashboard-toolbar .pills li:first-child{border-radius:12px 0 0 12px;}
+.dashboard-toolbar .pills li:last-child{ border-radius:0 12px 12px 0;}
+.dashboard-toolbar .pills li.pill-active, .dashboard-toolbar .pills li:hover{background:#008D96; color:#FFF;}
+/* ------ Dashboard page Ends ------ */ 
+
+
+}
+/* Mobile and Ipad common Responsive view ends */
+
+/* Ipad Responsive view starts */
+@media screen and (min-width:768px) and (max-width:1023px) {
+.container { width: 100%; padding: 0px 10px; box-sizing: border-box; }
+header .breadcrumb-section ul.breadcrumb { margin: 6px 0; }
+
+.welcome-container .healthcare .text-container .text-holder, .welcome-container .facility .text-container .text-holder, .welcome-container .dubai-health .image-container .text-holder, .welcome-container .dubai-health .text-container .text-holder{max-width:470px;}
+.welcome-container .healthcare .text-container, .welcome-container .facility .text-container {padding:20px 35px 55px;}
+.welcome-container .dubai-health .image-container {padding-top:50px; padding-bottom: 100px;}
+
+inner-content .container { width:auto; }
+.input-group div input { width: 75%; }
+.form-container { width: 100%; }
+.tooltip { width: 24%; float:left; }
+.professional-registration .registration-container { max-width:90vw; margin-left: 60px; }
+footer .footer-content .footer-links ul li a { }
+footer .footer-logo a { margin:0; width:100%; }
+footer .footer-logo { height: auto; }
+footer .footer-content .footer-links { width:50%; padding:0 10px; margin: 0 auto 30px; display:table; box-sizing:border-box; float:none !important; }
+footer .footer-content .browsers-block { width: 100%; text-align:center; }
+.browser-icons { display: flex; flex-direction: row; justify-content: center; margin:15px auto; width:50%; }
+.browser-icons div { flex-grow:1; margin:8px 0; }
+footer .footer-content .smart-dubai { width: 100%; }
+.smart-dubai a { display: flex; flex-direction: row; justify-content: center; margin: 15px 0 0; }
+.copyright { width: 100%; text-align: center; float:none !important; }
+.social-block { display: table; margin: 20px auto; float:none !important; position:relative; width:100%; }
+footer .footer-bottom .social-block a { flex-grow:1; width: 25%; margin: 8px 0; text-align: center; }
+footer .footer-bottom .bottom-links { float: none; }
+footer .footer-bottom .bottom-links ul { width: auto; display: table; text-align: center; margin: 0 auto; float:none !important; }
+footer .footer-bottom .bottom-links ul li:last-child span { display:none; }
+.footer-bottom-right { float: none !important; display: table; margin: 15px auto 0 !important; width:63%; }
+.bottom-links ul { margin:20px auto; }
+}
+/* Ipad Responsive view Ends */

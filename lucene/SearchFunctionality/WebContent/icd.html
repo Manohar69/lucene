@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>DHA-Dubai Health Authority</title>
+<meta name="description" content="DHA-Dubai Health Authority">
+<meta name="keywords" content="DHA-Dubai Health Authority" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/png" />
+<link href="css/dha/plugin-styles.css" rel="stylesheet" type="text/css" />
+<link href="css/dha/glyphter.css" rel="stylesheet" type="text/css" />
+<link href="css/dha/design-library.css" rel="stylesheet" type="text/css" />
+<link href="css/dha/main.css" rel="stylesheet" type="text/css" />
+<link href="css/dha/responsive-view.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jcanvas.js"></script>
+<script src="js/zoom-profile-image.js"></script>
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <div class="branding-section"> <a href="http://www.dubai.ae" target="_blank" class="brand-left pull-left"><img src="images/dubai-gov.svg"></a> <a href="https://www.dha.gov.ae/" target="_blank" class="brand-right pull-right"><img src="images/dha-logo.svg"></a> </div>
+    <div id="bluehead">
+      <div class="top-section bg-blue">
+        <div class="container">
+          <div class="logo-sheryan pull-left"><img src="images/sheryan-white-logo.svg" class="svg-green" id=""></div>
+          <span class="mobileNav icon-Mobilemenu"></span>
+		  <ul id="navBar" class="top-nav pull-left">
+            <li><a href="#">Professionals</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="https://eservices.dha.gov.ae" target="_blank">Other Services</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <div class="user pull-right">
+            <div class="initials information">aa</div>
+          </div>
+          <div class="search pull-right"><a href="#" class="icon-Search" title="Search"></a></div>
+          <div class="accessibility pull-right"><a href="#" class="icon-Accessibility" title="Accessibility"></a></div>
+        </div>
+      </div>
+      <div class="breadcrumb-section">
+        <div class="container">
+          <div class="home pull-left"><a href="#" class="icon-Home" title="Home"></a></div>
+          <ul class="breadcrumb pull-left">
+            <li class="icon-Arrowright"><a href="#">Medical Directory</a></li>
+          </ul>
+          <div class="translaet pull-right label-2"><a href="#" class="light">العربية</a></div>
+          <div class="dubai-ae pull-right"><a href="http://www.dubai.ae" target="_blank">&nbsp;</a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="inner-content page-bg">
+    <div class="container">
+      <h1 class="heading accent-2">ICD Codes</h1>      
+    </div>
+    <div class="container">
+			 <a href="javascript:void(0);" id="showIcd" class="btn btn-md btn-primary">Show ICD</a>
+      </div>
+	  <div id="icdPopup">
+		<div class="icdContainer">
+		<a href="#" class="primary icon-Delete icdClose"></a>
+			 <div class="searchIcd">
+				<label>ICD Code</label>
+				 <input id="searchICDval" placeholder="ICD Code" type="text">
+				<a id="searchICD"  class="btn btn-primary btn-md" >Search</a>
+			 </div>
+             <div class="resultList">
+				 <div class="resultsSection" id="searchdiv">
+					 <label>Results</label>
+				
+        	<select class="rList" id="icd_SearchResult" multiple>
+
+					</select>
+				</div>
+				<div class="arrowsContainer">
+					<a id="add" class="btn btn-primary btn-sm addIcon">Add</a>
+					<a id="remove" class="btn btn-primary btn-sm removeIcon">Remove</a>
+				</div>
+				 <div class="selectionSection" id="selecteddiv">
+					 <label>Selected ICD's</label>
+					<select class="sList" id="icd_selectedSearch" multiple>
+
+					</select>
+				</div>
+			<a href="" class="btn btn-primary btn-md top-space-xl" >Save</a>
+			</div>
+          </div>
+	  </div>
+    <div class="happiness-meter">
+      <div class="happiness-container"><a href="#"></a></div>
+    </div>
+  </div>
+  <footer class="bg-dark-grey" id="happiness-box">
+    <div class="footer-logo bg-white">
+      <div class="container">
+        <div class="tooltip"><a href="https://esuggest.dubai.gov.ae/" target="_blank" class="tooltip"><img src="images/e-suggest.png"><span class="tooltiptext">eSuggest</span></a></div>
+        <div class="tooltip"><a href="https://dubaicareers.ae/en/Pages/default.aspx" target="_blank" class="dubai-careers tooltip"><img src="images/dubai-careers.svg"><span class="tooltiptext">Dubai Careers</span></a></div>
+        <div class="tooltip"><a href="https://ecomplain.dubai.gov.ae/Main.aspx?Lang=en" target="_blank" class="tooltip"><img src="images/e-complain.png"><span class="tooltiptext">eComplaint</span></a></div>
+        <div class="tooltip"><a href="https://www.government.ae/en#/" target="_blank" class="tooltip"><img src="images/uae-gov.png"><span class="tooltiptext tooltiptext-big">The Official Portal of UAE Government</span></a></div>
+      </div>
+    </div>
+    <div class="footer-content light">
+      <div class="container">
+        <div class="footer-links pull-left label-1">
+          <ul class="space">
+            <li><a  href="https://www.dha.gov.ae/en/AboutUs/Pages/AboutUs.aspx" target="_blank">About DHA</a></li>
+            <li><a  href="https://dubaicareers.ae/en/Pages/default.aspx" target="_blank">Careers</a></li>
+            <li><a  href="https://www.dha.gov.ae/en/Pages/FAQ.aspx" target="_blank">FAQs</a></li>
+            <li><a  href="#">Sitemap</a></li>
+          </ul>
+          <ul>
+            <li><a  href="https://www.dha.gov.ae/en/Pages/ContactUS.aspx" target="_blank">Contact Us</a></li>
+            <li><a  href="https://www.dha.gov.ae/en/Pages/EmployeeServices.aspx" target="_blank">Employees E-Services</a></li>
+          </ul>
+        </div>
+        <div class="browsers-block pull-left">
+          <p class="label-2">This site is best viewed in</p>
+          <div class="icon-Googlechrome"></div>
+          <div class="icon-Internetexplorer"></div>
+          <div class="icon-Firefox"></div>
+          <div class="icon-Safari"></div>
+        </div>
+        <div class="smart-dubai pull-left"> <a href="http://www.smartdubai.ae/" target="_blank"><img src="images/smart-dubai-gov.png"></a> </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="line"></div>
+        <p class="copyright pull-left light label-2">All Rights Reserved. Dubai Health Authority 2017</p>
+        <div class="social-block pull-right"> <a href="https://www.youtube.com/user/dubaihealthauthority" target="_blank" title="Youtube" class="icon-Youtubecircle"></a> <a href="https://www.instagram.com/dha_dubai/?hl=en" target="_blank" title="Instagram" class="icon-Instagramcircle"></a> <a href="https://www.facebook.com/DubaiHealthAuthority" target="_blank" title="Facebook" class="icon-Facebookcircle"></a> <a href="https://twitter.com/DHA_Dubai" target="_blank" title="Twitter" class="icon-Twittercircle"></a> </div>
+        <div class="bottom-links pull-right">
+          <ul>
+            <li><a href="#">Terms and Conditions</a><span></span></li>
+            <li><a href="#">Privacy Policy</a><span></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="js/plugins.js"></script>
+<script src="js/skrollr.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="js/skrollr.ie.min.js"></script>
+<![endif]-->
+<script src="js/sheryan-scripts.js"></script>
+
+<script>
+	$('#icdPopup').hide();
+	$('#showIcd').click(
+		function(){
+		$('#icdPopup').show();
+		}
+	)
+
+$('#searchICD').click(function(){
+	var option = '';
+	// make call to the service to obtain the values for the search and populate it 
+	var val = ['1','2','3','4','5'];
+	 var qparam = $("#searchICDval").val();
+ console.log("value of param is"+qparam);
+ $.ajaxSetup({
+	/*  beforeSend: function(xhr) {
+	        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+	        xhr.setRequestHeader('Access-Control-Request-Method', 'GET');
+	        
+	    } */
+   
+});
+ $('#icd_SearchResult').empty();
+
+ $.get('getData1',{data:qparam},function(data,status){
+ 
+ for (var i = 0; i<data.length; i++){
+ option ='<option>'+data[i].InternalIDEDG1+' '+data[i].ICD10Code+' '+ data[i].Description+'</option>';
+ $('#icd_SearchResult').append(option);
+ }   
+ });
+});
+
+
+$('#add').click(function(){
+		var p = $("#searchdiv").find("#icd_SearchResult option:selected");
+        p.clone().appendTo("#icd_selectedSearch");
+        p.remove();
+});
+
+
+
+$('#remove').click(function(){
+	    var p = $('#selecteddiv').find("#icd_selectedSearch option:selected");
+        p.clone().appendTo("#icd_SearchResult");
+        p.remove();
+});
+
+
+
+
+</script>
+
+</body>
+</html>
